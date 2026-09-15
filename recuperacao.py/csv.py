@@ -1,8 +1,3 @@
-import pandas as pd
-
-# Define 'sep=";"' para avisar ao Pandas que o separador é o ponto e vírgula
-df = pd.read_csv("dados.csv", sep=";")
-
 Id;categoria;pergunta;resposta;intencao
 1;"Estoque";"Quais materiais estão em falta?";"Os materiais em situação crítica precisam de atenção e reposição prioritária.";"consultar_falta"
 2;"Estoque";"Quais materiais estão em situação crítica?";"Os materiais classificados como Crítico precisam de reposição prioritária.";"consultar_criticos"
